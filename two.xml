@@ -1,0 +1,28 @@
+<item>
+	<series text="[[+pagetitle]]" url="[[~[[+id]]]]">
+		<title>[[+sermon_preacher]]</title>
+		<link>[[~[[+id]]]]</link>
+		<comments>[[~[[+id]]]]</comments>
+		<pubDate>[[+createdon:strtotime:date=`%a, %e %b %Y %X %Z`]]</pubDate>
+		<dc:creator><![CDATA[Victory Pioneer]]></dc:creator>
+
+		<guid isPermaLink="false">[[~[[+id]]]]</guid>
+		<description><![CDATA[This podcast is brought to you by <a href="http://victorypioneer.org">Victory Pioneer</a>, a church in Mandaluyong, Metro Manila that exists to honor God and]]></description>
+		<content:encoded><![CDATA[<p><img class="alignleft" style="margin: 2px 2px; float: left;" src="http://victorypioneer.org/images/stories/profiles/docjun1.jpg" alt="" width="55" />
+		<p>This podcast is brought to you by <a href="http://victorypioneer.org">Victory Pioneer</a>, a church in Mandaluyong, Metro Manila that exists to honor God and make disciples.</p>
+		]]></content:encoded>
+		<wfw:commentRss>[[~[[+id]]]]</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<enclosure url="[[+sermon_url]]" length="" type="audio/mpeg" />
+
+		<itunes:duration></itunes:duration>
+		<itunes:subtitle>
+		This podcast is brought to you by Victory Pioneer, a church in Mandaluyong, Metro Manila that exists to honor God and make disciples.</itunes:subtitle>
+		<itunes:summary>
+			This podcast is brought to you by Victory Pioneer, a church in Mandaluyong, Metro Manila that exists to honor God and make disciples.</itunes:summary>
+		<itunes:author>Victory Pioneer</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</series>
+</item>
+
