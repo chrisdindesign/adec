@@ -1,0 +1,47 @@
+<!-- YEAR -->
+
+<div class="series-year">
+	<h3 style="padding-left: 15px; font-size: 22px; font-weight: 300; color: #ffffff; background: #00448d; width: 80px; margin-left: 15px;">[[+menutitle]]</h3>
+	<div>[[getResources? &parents=`[[+id]]` &outputSeparator=`` &sortby=`{"menuindex":"ASC"}` &showHidden=`1` &where=`{"template:=":5}` &includeTVs=`1` &tpl=`sermon_series_tpl` &limit=`0`]]</div>
+</div>
+
+<!-- THUMB -->
+
+<div class="series-thumb">
+	<a href="[[~[[+id]]]]"><img src="[[+tv.series_thumb]]" alt="[[+pagetitle]]"></a>
+	<a href="[[~[[+id]]]]"><h3 class="series-name">[[+pagetitle]]</h3></a>
+</div>
+
+<!-- AUDIO -->
+
+<div class="series-wrap">
+	<h4>Audio Messages</h4>
+	<div class="clearfix"></div>
+	<div class="series-weeks">
+		[[!getImageList? &tvname=`series_week_migx` &tpl=`series_week_tpl` ]]
+		<p style="margin-bottom:0px">To download the messages, right-click on the Download link and select 'Save link as...'.</p>
+	</div>
+</div>
+
+<!-- SERIES WEEK -->
+
+<div class="series-week">
+	<h2><a>[[+title]]</a></h2>
+	<div class="week-content">
+		[[!getImageList? &value=`[[+series_week_sermon]]` &tvname=`series_week_sermon` &tpl=`default_sermon_tpl` &limit=`1`]]
+		<div class="sermons">
+			[[!getImageList? &value=`[[+series_week_sermon]]` &tvname=`series_week_sermon` &tpl=`series_week_sermon_tpl`]]
+		</div>
+	</div>
+</div>
+
+
+<!-- PREACHER -->
+
+<audio src="[[+sermon_url]]" preload="none"></audio>
+
+<div class="preacher">
+	<h3 class="sermon-meta[[+_first:is=`1`:then=` default`]]" data-podcast="[[+sermon_url]]">[[+title]] - [[+sermon_preacher]]</h3>
+	<a href="[[+sermon_url]]" class="download-link">Download</a>
+	<div class="clearfix"></div>
+</div>
