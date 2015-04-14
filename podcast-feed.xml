@@ -1,18 +1,19 @@
 
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-xmlns:content="http://purl.org/rss/1.0/modules/content/"
-xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-xmlns:dc="http://purl.org/dc/elements/1.1/"
-xmlns:atom="http://www.w3.org/2005/Atom"
-xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-xmlns:media="http://search.yahoo.com/mrss/">
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:media="http://search.yahoo.com/mrss/"
+>
 
 <channel>
 	<title>Victory Pioneer &#187; Podcast Series</title>
-	<atom:link href="http://victoryfort.org/tag/podcast/feed/" rel="self" type="application/rss+xml" />
-	<link>http://victoryfort.org</link>
+	<atom:link href="http://victorypioneer.org/podcast-feed.xml" rel="self" type="application/rss+xml" />
+	<link>http://victorypioneer.org</link>
 	<description>Honor God. Make Disciples.</description>
 	<lastBuildDate>Sun, 12 Apr 2015 12:44:16 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -25,13 +26,13 @@ xmlns:media="http://search.yahoo.com/mrss/">
 	<category>Christianity</category>
 	<ttl>1440</ttl>
 	<image>
-		<url>http://victoryfort.org/images/144PODCAST.jpg</url>
+		<url>http://victorypioneer.org/img/podcast-300.jpg</url>
 		<title>Victory Pioneer</title>
-		<link>http://victoryfort.org</link>
+		<link>http://victorypioneer.org</link>
 		<width>144</width>
 		<height>144</height>
 	</image>
-	<itunes:new-feed-url>http://victoryfort.org/?feed=podcast</itunes:new-feed-url>
+	<itunes:new-feed-url>http://victorypioneer.org/podcast-feed.xml</itunes:new-feed-url>
 	<itunes:subtitle>Weekend Service Messages</itunes:subtitle>
 	<itunes:summary>This podcast features weekend messages delivered at the services of Victory Pioneer, a church in the Philippines that exists to honor God and make disciples.</itunes:summary>
 	<itunes:keywords>church, philippines, christianity, manila, faith, God</itunes:keywords>
@@ -41,35 +42,35 @@ xmlns:media="http://search.yahoo.com/mrss/">
 	<itunes:author>Victory Pioneer</itunes:author>
 	<itunes:owner>
 		<itunes:name>Victory Pioneer</itunes:name>
-		<itunes:email>fort@victory.org.ph</itunes:email>
+		<itunes:email>pioneer@victory.org.ph</itunes:email>
 	</itunes:owner>
 	<itunes:block>no</itunes:block>
 	<itunes:explicit>clean</itunes:explicit>
-	<itunes:image href="http://victoryfort.org/images/300PODCAST.jpg" />
+	<itunes:image href="http://victorypioneer.org/img/podcast-300.jpg" />
 	
-	<item>
-		<title>Stewardship (Taglish) &#8211; Jun Aguilar</title>
-		<link>[[~[[+id]]]]</link>
-		<comments>[[~[[+id]]]]</comments>
-		<pubDate>[[+createdon:strtotime:date=`%a, %e %b %Y %X %Z`]]</pubDate>
-		<dc:creator><![CDATA[Victory Pioneer]]></dc:creator>
+		<item>
+			<title>[[+sermon_preacher]]</title>
+			<link>[[~[[+id]]]]</link>
+			<comments>[[~[[+id]]]]</comments>
+			<pubDate>[[+createdon:strtotime:date=`%a, %e %b %Y %X %Z`]]</pubDate>
+			<dc:creator><![CDATA[Victory Pioneer]]></dc:creator>
 
-		<guid isPermaLink="false">http://victoryfort.org/?p=4042</guid>
-		<description><![CDATA[This podcast is brought to you by <a href="http://victorypioneer.org">Victory Pioneer</a>, a church in Mandaluyong, Metro Manila that exists to honor God and]]></description>
-		<content:encoded><![CDATA[<p><img class="alignleft" style="margin: 2px 2px; float: left;" src="http://victoryfort.org/images/stories/profiles/docjun1.jpg" alt="" width="55" />
-		<p>This podcast is brought to you by <a href="http://victorypioneer.org">Victory Pioneer</a>, a church in Mandaluyong, Metro Manila that exists to honor God and make disciples.</p>
-		]]></content:encoded>
-		<wfw:commentRss>http://victoryfort.org/stewardship-taglish-jun-aguilar/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		<enclosure url="http://victoryfort.org/a/pod11/21ASF/2011111314Stewardship.mp3" length="35379291" type="audio/mpeg" />
-		<itunes:duration>0:48:59</itunes:duration>
-		<itunes:subtitle>
+			<guid isPermaLink="false">[[~[[+id]]]]</guid>
+			<description><![CDATA[This podcast is brought to you by <a href="http://victorypioneer.org">Victory Pioneer</a>, a church in Mandaluyong, Metro Manila that exists to honor God and]]></description>
+			<content:encoded><![CDATA[<p><img class="alignleft" style="margin: 2px 2px; float: left;" src="http://victorypioneer.org/images/stories/profiles/docjun1.jpg" alt="" width="55" />
+			<p>This podcast is brought to you by <a href="http://victorypioneer.org">Victory Pioneer</a>, a church in Mandaluyong, Metro Manila that exists to honor God and make disciples.</p>
+			]]></content:encoded>
+			<wfw:commentRss>[[~[[+id]]]]</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+			<enclosure url="[[+sermon_url]]" length="" type="audio/mpeg" />
+			<itunes:duration></itunes:duration>
+			<itunes:subtitle>
 			This podcast is brought to you by Victory Pioneer, a church in Mandaluyong, Metro Manila that exists to honor God and make disciples.</itunes:subtitle>
 			<itunes:summary>
 				This podcast is brought to you by Victory Pioneer, a church in Mandaluyong, Metro Manila that exists to honor God and make disciples.</itunes:summary>
-				<itunes:author>Victory Pioneer</itunes:author>
-				<itunes:explicit>clean</itunes:explicit>
-				<itunes:block>no</itunes:block>
-			</item>
-		</channel>
-	</rss>
+			<itunes:author>Victory Pioneer</itunes:author>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:block>no</itunes:block>
+		</item>
+	</channel>
+</rss>
